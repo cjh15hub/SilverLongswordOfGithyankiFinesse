@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="6" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ea1ef034-13de-4d8a-bf70-31acbc231f27" />
+					<attribute id="Name" type="LSString" value="DGM_Silver_Gith_Longsword" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="907a794b-b089-406b-880d-6f2df2bb3f13" />
+					<attribute id="VisualTemplate" type="FixedString" value="0771b2c1-ff5a-267b-5b94-95d39ba134c3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he4371397gf001g4e01ga4d2g539f602796b9" version="1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c7c67380-25fe-6814-78fa-2ed1cb511dab" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Longsword_A_GLOW" />
+					<attribute id="Stats" type="FixedString" value="DGM_Silver_Gith_Longsword" />
+					<attribute id="Description" type="TranslatedString" handle="h4ea9798ag4cccg4893g9133g7370b0afb9da" version="1" />
+					<!-- <attribute id="EquipmentTypeID" type="guid" value="f85002a2-8e0e-4a49-aa0f-f52e987d3a3a" /> -->
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
