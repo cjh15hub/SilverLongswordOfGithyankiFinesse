@@ -17,4 +17,8 @@
 
     <content contentuid="h992a4ff84bb747508860770780918a6aff1a" version="1">Weapon Transformation: Greatsword</content>
     <content contentuid="h6d30fc63b5f34c41b908fc38fc12b6cb02ba" version="1">Transforms the Silver Sword of the Astral Plane into a greatsword.</content>
+    
+    <content contentuid="h894201ce31214f7eb2c58ef0efbf13a94ac4" version="1">Silver Greatsword Transfiguration</content>
+    <content contentuid="h0801c7e5b7c3492189ed3990f21cd057fb62" version="1">Silver Longsword Transfiguration</content>
+    <content contentuid="h8fd7895798a548e7ae8317de04f1ae522ff1" version="1">Silver Shortsword Transfiguration</content>
 </contentList>

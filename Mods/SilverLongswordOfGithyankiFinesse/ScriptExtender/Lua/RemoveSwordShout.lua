@@ -10,23 +10,33 @@ TEMPLATE_MAP = { [SHORTSWORD_TEMPLATE]=true, [LONGSWORD_TEMPLATE]=true, [GREATSW
 
 
 function HandleSilverSwordSwapBefore(caster, spell)
-    Ext.Utils.Print("Silver Sword Swap Spell: " .. spell)
     local weapon = Osi.GetEquippedItem(caster, "Melee Main Weapon")
     if weapon == nil then
         return
     end
 
     local templateName = Osi.GetTemplate(weapon)
-    Ext.Utils.Print("templateName: " .. templateName)
+    -- Ext.Utils.Print("templateName: " .. templateName)
 
     if TEMPLATE_MAP[templateName] ~= nil then
         targetWeaponToRemove = weapon
+        return
+    end
+
+    weapon = Osi.GetEquippedItem(caster, "Melee Offhand Weapon")
+    if weapon == nil then
+        return
+    end
+
+    templateName = Osi.GetTemplate(weapon)
+
+    if TEMPLATE_MAP[templateName] ~= nil then
+        targetWeaponToRemove = weapon
+        return
     end
 end
 
 function HandleSilverSwordSwapAfter(caster, spell)
-    Ext.Utils.Print("Silver Sword Spell After: " .. spell)
-    Ext.Utils.Print("targetWeaponToRemove: " .. targetWeaponToRemove)
     if targetWeaponToRemove == nil then
         return
     end
