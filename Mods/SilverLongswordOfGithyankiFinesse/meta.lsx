@@ -8,7 +8,7 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="DudeGuierton" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSWString" value="Adds an alternative finesse longsword or shortsword for the 'Silver Sword of the Astral Place'; Well suited for Dexterity based builds of Lae'zel or other Githyanki." />
+          <attribute id="Description" type="LSWString" value="Adds alternative finesse longsword and shortsword variants for the 'Silver Sword of the Astral Plane'; Well suited for Dexterity based builds of Lae'zel or other Githyanki." />
           <attribute id="Folder" type="LSWString" value="SilverLongswordOfGithyankiFinesse" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
